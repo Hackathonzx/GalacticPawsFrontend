@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 // Make sure to create this file and HomePage widget
-import 'package:myapp/screens/init.dart';
+import 'package:galacticpawsfrontend/screens/init.dart';
 
 
 void main() {

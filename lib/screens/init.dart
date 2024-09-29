@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/screens/home.dart';
+import 'package:galacticpawsfrontend/screens/home.dart';
 
 class HomePage extends StatefulWidget {
   @override

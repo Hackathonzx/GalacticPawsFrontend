@@ -297,7 +297,7 @@ class Drawer3DState extends State<Drawer3D>
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        " Studycoin ",
+                                        " Galactic PAWS ",
                                         style: TextStyle(
                                           fontSize: 18,
                                           fontWeight: FontWeight.bold,
@@ -305,7 +305,7 @@ class Drawer3DState extends State<Drawer3D>
                                       ),
                                       SizedBox(height: 5), // Add some spacing between the texts
                                       Text(
-                                        "@studycoin", // Replace with your desired text
+                                        "@galacticpawsapp", // Replace with your desired text
                                         style: TextStyle(
                                           fontSize: 16,
                                           fontWeight: FontWeight.normal,
@@ -690,7 +690,7 @@ class Drawer3DState extends State<Drawer3D>
                 Opacity(
                   opacity: 1 - _animator.value,
                   child: const Text(
-                    " STUDYCOIN MAP",
+                    "GALACTIC PAWS",
                     style: TextStyle(fontWeight: FontWeight.w900),
                   ),
                 ),
@@ -745,7 +745,7 @@ class Drawer3DState extends State<Drawer3D>
                   children: [
                     // Ride Details
                     const Text(
-                      ' Locations of schools for funding in Nigeria',
+                      'Send tokens across the Galaxy',
                       style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
                     const SizedBox(height: 10),
@@ -760,9 +760,9 @@ class Drawer3DState extends State<Drawer3D>
                         const Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text(' Country: Nigeria', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                            Text(' Blockchain: Ethereum', style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
                             Text(' Chosen Location: ', style: TextStyle(fontSize: 14)),
-                            Text('Fund urgency rating:', style: TextStyle(fontSize: 14)),
+                            Text('Token priority:', style: TextStyle(fontSize: 14)),
                           ],
                         ),
                         const Spacer(),
@@ -775,11 +775,11 @@ class Drawer3DState extends State<Drawer3D>
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
-                          'Payment Method',
+                          'Token amount',
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          '\$100', // Replace with the actual amount
+                          '\0.002 Paws', // Replace with the actual amount
                           style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                         ),
                       ],
@@ -804,10 +804,10 @@ class Drawer3DState extends State<Drawer3D>
 
                           const Column(
                             children: [
-                              Text('**** **** **** 1234', style: TextStyle(fontSize: 16)),
+                              Text('**** **** **** sjsjhduy2gpw', style: TextStyle(fontSize: 16)),
                               Align(
                                 alignment: Alignment.centerLeft,
-                                child: Text('Expires: 12/26', style: TextStyle(fontSize: 12)),
+                                child: Text('Expires: 23:01', style: TextStyle(fontSize: 12)),
                               )                            ],
                           ),
 
@@ -853,9 +853,9 @@ class Drawer3DState extends State<Drawer3D>
                                 mainAxisAlignment: MainAxisAlignment.center, // This line was added
 
                                 children: [
-                                  Icon(Icons.call, size: 30),
+                                  // Icon(Icons.call, size: 30),
                                   SizedBox(width: 10),
-                                  Text('Call', style: TextStyle(fontSize: 16)),
+                                  Text('Spaceship', style: TextStyle(fontSize: 16)),
                                 ],
                               ),
                             ),
@@ -885,9 +885,9 @@ class Drawer3DState extends State<Drawer3D>
 
                                 children: [
 
-                                  Icon(Icons.message, size: 30, color: Colors.white),
+                                  // Icon(Icons.message, size: 30, color: Colors.white),
                                   SizedBox(width: 10),
-                                  Text('Message', style: TextStyle(fontSize: 16, color: Colors.white)),
+                                  Text('Paws', style: TextStyle(fontSize: 16, color: Colors.white)),
                                 ],
                               ),
                             ),
